@@ -1,0 +1,217 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&family=Yellowtail&display=swap');
+
+
+*{
+
+
+    margin: 0;
+
+
+
+
+
+} 
+
+body{
+
+ background-color:#202020;
+
+
+
+ overflow: hidden;
+
+
+}
+
+
+
+
+.main{
+
+    grid-template-columns: 20px 10px 5px;
+
+ width: 1200px;
+ height: 300px;
+ position: relative;
+ left:30px;
+ top:50px;
+ display: flex;
+ justify-content:space-around;
+
+ padding: 15px 0px 0px 0px;
+}
+
+
+.moviePoster{
+     
+    background:url("https://img.fruugo.com/product/0/08/14290080_max.jpg");
+    background-color: #ffee32;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 280px;
+    border: solid #ffee32;
+    border-radius: 5%;
+   
+  transition: ease-in-out 0.1s;
+  font-size: 20px;
+  text-align:center;
+  color:#ff000000;
+  font-style: italic;
+  transition: ease-in-out 1s;
+    
+  
+
+}
+
+.moviePoster:hover{
+
+   
+    box-shadow: inset 0px 0px 20px 1150px #000000c4;
+  
+  position: relative;
+  bottom: 2px;
+  color:#ffee32;
+}
+
+
+
+
+
+.head{
+  
+    height: 60px;
+
+   background:#ffee32;
+   position:relative;
+   top:0px;
+ 
+  
+   
+   }
+   
+   
+   .webName{
+       font-size: 40px;
+      /* background:gray; */
+      display:inline-block;
+      position:absolute;
+     top:5px;
+      left:30px;
+      color:#333533;
+      font-family:'Bebas Neue', cursive;
+      text-shadow: 0px 0px 1.5px;
+   
+   
+   }
+   
+   
+   .webMenue{
+     
+     
+        /* background:rgb(0, 218, 98);  */
+       display:inline-block;
+       position:relative;
+       left:970px;
+       top:16px;
+       padding : 0px;
+      
+       
+   
+   }
+   
+   
+   ul{padding:0;
+      
+
+
+    width: 286px;
+
+   margin: 0px;
+
+
+}
+   
+   .li{
+   
+   
+    text-decoration: none;
+    color:#333533;
+   
+   
+       
+   }
+   
+   li{
+      
+   
+    /* background-color: rgb(0, 217, 255); */
+    display:inline;
+    font-size:25px;
+    margin: 0px 24px 0px 0px ;
+      
+   
+    font-family: 'Bebas Neue', cursive;
+   
+    cursor: pointer;
+   
+    transition: 0.5s;
+    
+   
+   }
+   
+   
+   
+   li:hover{
+   
+   
+   
+   
+    text-shadow: 2px 2px 4px;
+    
+
+
+   
+   
+   
+   }
+
+   .loading{
+
+    background-color: #202020;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    
+    
+    }
+     
+    
+    .loader {
+        border: 16px solid #ffee32; 
+        border-top: 16px double #ffee32; 
+        border-bottom: 16px double #ffee32; 
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        position: relative;
+        top: 50%;
+        left: 550px;
+        top: 400px;
+        
+        
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    
+   

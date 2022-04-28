@@ -1,0 +1,231 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&family=Yellowtail&display=swap');
+
+
+
+
+
+
+
+*{
+
+
+ margin: 0px;
+ padding: 0px;
+
+
+
+}
+
+
+
+
+body{
+
+
+
+  background-color: #ffee32;
+ 
+
+ 
+
+
+
+}
+
+
+
+
+
+
+
+a{
+
+color: #11100700;
+
+
+
+}
+
+.movie{
+
+  height: 200px;
+  width: 200px;
+  position: absolute;
+
+  left: 380px;
+  background-color:#202020;
+ border-radius: 50px;
+ background-image: url("./image/movie.png");
+ background-size: 70%;
+ background-repeat: no-repeat;
+ bottom: 400px;
+ background-position: center;
+ box-shadow: inset 11px 20px 10px 0px black;
+ transition: 0.5s;
+}
+
+
+
+.movie:hover{
+
+
+ 
+  box-shadow: inset 11px 20px 10px 0px rgba(0, 0, 0, 0);
+
+
+}
+
+
+
+.home{
+
+
+
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 80px;
+  
+  background-color:#202020;
+ border-radius: 50px;
+ background-image: url("./image/home.png");
+ background-size: 70%;
+ background-repeat: no-repeat;
+ bottom: 400px;
+ background-position: center;
+ box-shadow: inset 11px 20px 10px 0px black;
+
+transition: 0.5s;
+
+
+}
+
+
+.home:hover{
+
+
+ 
+  box-shadow: inset 11px 20px 10px 0px rgba(0, 0, 0, 0);
+
+
+}
+
+
+
+.tv{
+
+
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 680px;
+  
+  background-color:#202020;
+ border-radius: 50px;
+ background-image: url("./image/tv.png");
+ background-size: 70%;
+ background-repeat: no-repeat;
+ bottom: 400px;
+ background-position: center;
+ box-shadow: inset 11px 20px 10px 0px black;
+transition: 0.5s;
+
+
+
+
+
+
+}
+
+
+
+
+.tv:hover{
+
+
+ 
+  box-shadow: inset 11px 20px 10px 0px rgba(0, 0, 0, 0);
+
+
+}
+
+
+
+
+.us{
+
+
+
+
+
+ 
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 980px;
+  bottom: 400px;
+  background-color:#202020;
+ border-radius: 50px;
+ background-image: url("./image/us.png");
+ background-size: 70%;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
+ box-shadow: inset 11px 20px 10px 0px black;
+ transition: 0.5s;
+
+
+
+
+}
+
+
+
+
+.us:hover{
+
+
+ 
+  box-shadow: inset 11px 20px 10px 0px rgba(0, 0, 0, 0);
+
+
+}
+
+
+.loading{
+
+  background-color: #202020;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  
+  
+  }
+   
+  
+  .loader {
+      border: 16px solid #ffee32; 
+      border-top: 16px double #ffee32; 
+      border-bottom: 16px double #ffee32; 
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+      position: relative;
+      top: 50%;
+      left: 550px;
+      top: 400px;
+      
+      
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  
